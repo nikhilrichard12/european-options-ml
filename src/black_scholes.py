@@ -1,8 +1,6 @@
 import numpy as np
 from scipy.stats import norm
 import pandas as pd
-from google.colab import files
-
 def Black_Scholes_call(S0, K, T, r, sigma, q):
     """
     Calculate Black-Scholes call option price
