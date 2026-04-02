@@ -1,6 +1,6 @@
 # SPY Option Pricing with ML
 
-Pricing SPY call options using ML vs. Black-Scholes. Based on Q1 2023 data.
+Pricing SPY call options using ML vs. Black-Scholes(1973 mathematical framework used to calculate the theoretical fair value of European-style options). Based on Q1 2023 data.
 
 ## Results
 
@@ -20,11 +20,6 @@ ML models outperformed the baseline. Random Forest was the most accurate.
 * **Neural Network:** 3-layer (64-32-1) with ReLU and Adam.
 * **Black-Scholes:** Benchmark. Fails because it assumes constant volatility.
 
-## Key Takeaways
-
-* **Intrinsic Value:** Strike price dominates all models.
-* **Market Patterns:** ML captures non-linearities like the volatility smile.
-* **Efficiency:** Tree-based models (RF/XGBoost) beat deep learning for this tabular data.
 
 ## Data and Features
 
